@@ -31,13 +31,7 @@
 5. Run New VM
 - Press any key when VM window first loads up in order to access the optical disc to boot from ISO file
 - Allow Windows to start installation
-- Follow Windows setup prompts
-![VirtualBox Install Step1](01_Images/VM_Setup_Windows11/VirtualBox_Install_step_1.png)
-![VirtualBox Install Step1](01_Images/VM_Setup_Windows11/VirtualBox_Install_step_2.png)
-![VirtualBox Install Step1](01_Images/VM_Setup_Windows11/VirtualBox_Install_step_3.png)
-![VirtualBox Install Step1](01_Images/VM_Setup_Windows11/VirtualBox_Install_step_4.png)
-![VirtualBox Install Step1](01_Images/VM_Setup_Windows11/VirtualBox_Install_step_5.png)
-
+- Follow Windows setup prompts (see images)
 6. Check internet accessiblity
 - If no internet, verify that the VM network adapter is set to **NAT**
 
