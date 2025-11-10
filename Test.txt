@@ -1,5 +1,0 @@
-This is a test run to push/pull stuff from github and local repo.
-pooping out my first push here at 4:46pm
-First try i messed up with the email, trying again now
-Success in pushing to github, now to test pulling. Pullin this shit to local.
-Success pulling from github. One last round of pushing and then we'll learn how to delete
