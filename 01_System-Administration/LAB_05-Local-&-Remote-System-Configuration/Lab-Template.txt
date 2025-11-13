@@ -1,0 +1,37 @@
+# Local & Remote System Configuration
+**Date Created:** November 12, 2025  
+**Last Updated:** November 12, 2025
+
+## **Skills Demonstrated:**
+- Configuring local system settings (hostname, time zone, network, users, permissions)
+- Editing system configuration files using both GUI and CLI
+- Setting up and testing remote connections via SSH and RDP
+- Managing system services and startup behavior
+- Applying security and access control best practices for remote management
+- Troubleshooting failed remote connections and authentication issues
+
+## **Objective:**
+- To practice configuring a local machine and enabling secure remote management capabilities.
+- To understand how system configuration files and tools differ between Windows and Linux environments.
+- To verify successful remote connectivity and secure access between two VMs.
+
+## **Tools & Environment:**
+- Operating Systems: Windows 11, Linux Mint
+- Virtual Machines: Configured in VirtualBox
+- Commands/Utilities Used:
+	- Windows: SystemPropertiesRemote, net user, services.msc, PowerShell (Get-Service, Set-NetIPAddress)
+	- Linux: hostnamectl, timedatectl, ifconfig/ip, systemctl, sshd, scp, ufw
+- Networking: Host-only or NAT with port forwarding for SSH/RDP connections
+- Optional Tools: PuTTY (Windows), Remmina (Linux), Wireshark (for packet capture verification)
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]

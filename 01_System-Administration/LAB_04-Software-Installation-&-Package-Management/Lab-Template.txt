@@ -1,0 +1,44 @@
+# Software Installation & Package Management
+**Date Created:** November 12, 2025  
+**Last Updated:** November 12, 2025 
+
+## **Skills Demonstrated:**
+- Installing, updating, and removing software packages on Linux using apt, dpkg, and snap
+- Managing repositories and verifying package integrity
+- Troubleshooting broken dependencies
+- Comparing Linux package managers with Windows tools like Chocolatey or PowerShell’s winget
+- Understanding how software is distributed, verified, and sandboxed
+
+## **Objective:**
+- Learn how to manage software installations efficiently using package managers
+- Understand repository sources, digital signatures, and dependency management
+- Practice installing tools from both package repositories and manual .deb installations
+- Gain confidence in updating and maintaining software on Linux systems
+
+## **Tools & Environment:**
+- Operating System: Linux Mint
+- Commands Used:
+	- sudo apt update && sudo apt upgrade
+	- sudo apt install <package_name>
+	- sudo apt remove <package_name>
+	- sudo apt autoremove
+	- dpkg -i <package.deb>
+	- snap install <package>
+	- apt-cache search <keyword>
+- Tools Installed During Lab:
+	- htop (system monitor)
+	- nmap (network scanner)
+	- curl (data transfer utility)
+	- snapd (for snap packages)
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]

@@ -1,0 +1,24 @@
+# TITLE
+**Date Created:** Month Date, Year  
+**Last Updated:** Month Date, Year
+
+## **Skills Demonstrated:**
+- [Skills Practiced in this lab]
+
+## **Objective:**
+- [What I am trying to learn, test or prove]
+
+## **Tools & Environment:**
+- [OS, VMs, commands, tools used like Kali Linux, Nmap, Wireshark, etc.]
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]
