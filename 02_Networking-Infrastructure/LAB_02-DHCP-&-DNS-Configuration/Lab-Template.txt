@@ -1,0 +1,38 @@
+# DHCP & DNS Configuration
+**Date Created:** November 21, 2025  
+**Last Updated:** November 21, 2025
+
+## **Skills Demonstrated:**
+- Configuring DHCP settings (scope, exclusions, leases)
+- Understanding how IP addressing is assigned dynamically
+- Setting static IPs vs. DHCP assignments
+- Configuring local DNS settings in Windows or Linux
+- Testing DNS resolution with command-line tools
+- Troubleshooting hostname/IP issues
+- Observing DHCP lease behavior inside a VM environment
+
+## **Objective:**
+- Understand how DHCP automatically assigns IP addresses to devices on a network.
+- Learn how DNS translates hostnames into IP addresses and why it’s essential.
+- Configure and test DHCP behavior within a VirtualBox NAT or Host-Only network.
+- Practice setting static DNS servers (Google DNS, local DNS, etc.).
+- Verify DHCP leases and DNS queries using command-line tools like ipconfig, nslookup, and ping.
+
+## **Tools & Environment:**
+- VirtualBox (NAT or Host-Only network)
+- Windows 11 VM (or Linux Mint if preferred for DNS tests)
+- Command Prompt / PowerShell / Terminal
+- Built-in VirtualBox DHCP server (for host-only)
+- External DNS servers (Google 8.8.8.8, Cloudflare 1.1.1.1)
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]
