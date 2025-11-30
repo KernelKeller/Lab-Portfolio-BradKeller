@@ -30,39 +30,39 @@
 
 ## **Steps:**
 1. Document Host, Windows 11 VM, and Linux VM IP's and network modes using ipconfig, ipconfig /all, ip a, and ip route:
-	(a) Host:
+(a) Host:
 	- IP: (Host IP Hidden for security)	
-	(b) Win 11 VM:
+(b) Win 11 VM:
 	- IP: 10.0.2.15 (Due to hardware restrictions, only one VM is able to be open at once, so 	the IP's ended up being the same)
 	- Gateway: 10.0.2.2
 	- Network Mode: NAT
-	(c) Linux VM:	
+(c) Linux VM:	
 	- IP: 10.0.2.15 (Due to hardware restrictions, only one VM is able to be open at once, so 	the IP's ended up being the same)
 	- Gateway: 10.0.2.2
 	- Network Mode: NAT
 
 2. Test connectivity from each VM to external hosts and localhost:
-	(a) Win 11 VM:
+(a) Win 11 VM:
 	- Baseline test results for port 80: Failed (expected)
 	- Baseline test results for port 22: Failed (expected)
-	(b) Linux VM:
+(b) Linux VM:
 	- Baseline http result: Worked
 	- Baseline Random TCP Port result: Worked
 
 3. In Win 11 VM, use GUI and Powershell to create a rule to block outbound http traffic on port 80, allow inbound RDP traffic on port 3389
-	(a) GUI pathway to create an outbound rule -> See image "Step-3a"
-	(b) Powershell command to create an outbound rule -> See image "Step-3b"
-	(c) Tested outbound HTTP traffic by curling, it should fail -> See image "Step-3c"
-	(d) GUI pathway to create an inbound rule to allow 3389 -> See image "Step-3d"
-	(e) Powershell command to create an inbound rule to allow 3389 -> See image "Step-3e"
-	(f) Test RDP rule -> see Image "Step-3f"
-	(g) Remove firewall rules to end Win 11 portion of lab.
+(a) GUI pathway to create an outbound rule -> See image "Step-3a"
+(b) Powershell command to create an outbound rule -> See image "Step-3b"
+(c) Tested outbound HTTP traffic by curling, it should fail -> See image "Step-3c"
+(d) GUI pathway to create an inbound rule to allow 3389 -> See image "Step-3d"
+(e) Powershell command to create an inbound rule to allow 3389 -> See image "Step-3e"
+(f) Test RDP rule -> see Image "Step-3f"
+(g) Remove firewall rules to end Win 11 portion of lab.
 
 4. In Linux VM, create a rule to allow ssh on port 22 and a rule to block http traffic on port 80.
-	(a) Enable UFW on Linux
-	(b) Allow ssh on port 22, sudo ufw status to verify rule was created
-	(c) Block http on port 80, sudo ufw status to verify rule was created
-	(d) Remove recently created rules to end Linux portion of lab	
+(a) Enable UFW on Linux
+(b) Allow ssh on port 22, sudo ufw status to verify rule was created
+(c) Block http on port 80, sudo ufw status to verify rule was created
+(d) Remove recently created rules to end Linux portion of lab	
 
 ## **Notes:**
 - Linux VM can host a web server by installing apache2. This allows port 80 to open
