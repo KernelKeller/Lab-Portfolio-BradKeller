@@ -1,0 +1,49 @@
+# Windows Hardening
+**Date Created:** December 14, 2025 
+**Last Updated:** December 14, 2025
+
+## **Skills Demonstrated:**
+- Applying baseline security configurations to Windows 11
+- Disabling unnecessary services and tightening system settings
+- Hardening local accounts, passwords, and authentication policies
+- Configuring Windows Firewall rules and allowed applications
+- Managing User Account Control (UAC)
+- Using Group Policy Editor (gpedit.msc) for security settings
+- Configuring audit policies for logging and monitoring
+- Hardening the browser (Edge/Chrome) and controlling extensions
+- Applying Windows Update and patch-management best practices
+- Reviewing system logs for suspicious activity
+- Reducing attack surface exposure using built-in Windows tools
+
+## **Objective:**
+- To learn and practice the essential steps required to harden a Windows 11 system against common attacks
+- To develop repeatable, documented procedures for securing a fresh Windows installation
+- To understand the security impact of each hardening step and how attackers typically exploit misconfigurations
+- To create a defensible Windows baseline suitable for entry-level cybersecurity roles and home lab environments
+
+## **Tools & Environment:**
+- Linux Mint host running Virtual Machine Manager
+- Windows 11 Pro VM (primary system being hardened)
+- Tools and utilities used:
+    - Local Security Policy (secpol.msc)
+    - Group Policy Editor (gpedit.msc)
+    - Windows Firewall
+    - PowerShell security cmdlets (e.g., Get-Service, Set-ExecutionPolicy, Get-LocalUser)
+    - Sysinternals Suite (Process Explorer, Autoruns, TCPView)
+    - Windows Security / Defender AV
+    - Event Viewer (Security, System, Application logs)
+- Optional third-party checkers (not required):
+    - CIS Benchmark checklist
+    - Hardening scripts (review only, not running)
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviours]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or successfully completed]

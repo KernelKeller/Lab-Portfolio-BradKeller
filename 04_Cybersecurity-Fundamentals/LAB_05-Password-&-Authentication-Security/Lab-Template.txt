@@ -1,0 +1,45 @@
+# Password & Authentication Security
+**Date Created:** December 16, 2025 
+**Last Updated:** December 16, 2025 
+
+## **Skills Demonstrated:**
+- Understanding password policies and best practices
+- Configuring password complexity, expiration, and history rules
+- Implementing multi-factor authentication (MFA) on Windows and Linux systems
+- Managing user accounts and authentication methods
+- Using Active Directory and local account security tools
+- Testing authentication workflows and login restrictions
+- Identifying weak passwords and insecure authentication practices
+- Understanding hashing, salting, and secure password storage
+- Practising secure credential management in lab environments
+
+## **Objective:**
+- To learn and apply best practices for password and authentication security
+- To simulate real world scenarios with secure and insecure authentication setups
+- To demonstrate the ability to configure policies that mitigate common attack vectors
+- To document repeatable procedures for password management and MFA implementation
+- To strengthen understanding of secure authentication fundamentals for entry-level cybersecurity roles
+
+## **Tools & Environment:**
+- Linux Mint host running Virtual Machine Manager
+- Windows 11 Pro VM (primary system for password policy testing)
+- Linux Mint VM (for cross-platform authentication tests)
+- Tools and utilities:
+    - Windows: Local Security Policy (secpol.msc), Active Directory Users & Computers (ADUC), PowerShell (Get-LocalUser, Set-LocalUser)
+    - Linux: passwd, /etc/shadow, PAM configuration
+    - Optional MFA tools (authenticator apps or simulated MFA in lab)
+    - Event logs: Windows Event Viewer and Linux /var/log/auth.log
+    - Security testing tools: John the Ripper, Hashcat (lab only, offline testing)
+- Networking: isolated VMM virtual network for testing login/authentication scenarios
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]

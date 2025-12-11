@@ -1,0 +1,49 @@
+# Ticket Lifecycle Simulation
+**Date Created:** December 13, 2025  
+**Last Updated:** December 13, 2025
+
+## **Skills Demonstrated:**
+- Creating, categorizing, and prioritizing IT support tickets
+- Following ITIL-style ticket management workflows
+- Documenting troubleshooting steps clearly and professionally
+- Communicating with users through ticket updates
+- Managing ticket statuses: New → In Progress → On Hold → Resolved → Closed
+- Understanding SLAs (Service Level Agreements) and response expectations
+- Handling escalations and reassignments
+- Attaching logs, screenshots, or evidence to tickets
+- Writing clear summary notes for final ticket handoff or closure
+
+## **Objective:**
+- To simulate the full lifecycle of a helpdesk support ticket from creation to closure
+- To practice documenting technical issues in a way real employers expect
+- To build habits for clear communication, accountability, and follow-through
+- To demonstrate the ability to manage multiple tickets with varying priorities
+- To gain familiarity with common ticketing systems and workflows
+
+## **Tools & Environment:**
+- Linux Mint host running Virtual Machine Manager (KVM/QEMU)
+- Windows 11 Pro VM (used for generating “user issues” and screenshots)
+- Linux Mint VM (optional for agent-side testing)
+- Ticketing system (one of the following):
+    - GLPI (self-hosted in a VM if desired)
+    - RT (Request Tracker)
+    - Spiceworks Help Desk (Cloud)
+    - Freshdesk free-tier or Jira Service Management free-tier
+    - Or a simple Markdown/Notion-style simulated ticket log
+- Tools for evidence gathering:
+    - Windows Event Viewer
+    - Screenshots or logs
+    - CMD / PowerShell commands
+- Optional: Simulated SLA timers or escalation rules
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]
