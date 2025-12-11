@@ -42,7 +42,7 @@
     - Open Event Viewer and go to Windows Logs -> Security
     - Filter by event ID 4740 (An account lockout event)
     - Verify that it was for Lab User
-9. Identify the root cause of the issue. In this case, Event viewer ID 4740 indicates a user account lockout, likely due to multiple password attempts.
+9. Identify the root cause of the issue. Event ID 4740 indicates a user account lockout originating from the client computer. In this lab, the root cause was repeated incorrect password entries by the user.
 
 ## **Notes:**
 - After downloading and installing the Windows Server 2022 ISO and setting up the domain and adding my win 11 client VM to the domain, I realized.... That was a lab in itself! I should have documented that process as I went along. I'll add that to the list of future labs to do.
@@ -55,4 +55,4 @@
     - Fix: Updated the lockout options in Group Policy Management to cause a lockout instead of a delay.
 
 ## **Outcome:**
-- Identified the root cause of the issue. Event ID 4740 indicates a user account lockout originating from the client computer. In this lab, the root cause was repeated incorrect password entries by the user.
+- Successfully simulated, identified, unlocked, and reset a domain user account following standard Helpdesk procedures. Verified authentication and reviewed event logs to confirm proper auditing.
