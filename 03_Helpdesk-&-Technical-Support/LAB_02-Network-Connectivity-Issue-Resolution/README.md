@@ -16,7 +16,7 @@
 - Simulate real-world helpdesk scenarios where users cannot access the network or Internet
 - Identify root causes (DHCP failure, DNS misconfiguration, gateway issues, NIC problems)
 - Practice using both GUI and CLI tools to diagnose and resolve connectivity issues
-= Build repeatable troubleshooting workflows matching Tier 1–2 helpdesk expectations
+- Build repeatable troubleshooting workflows matching Tier 1–2 helpdesk expectations
 
 ## **Tools & Environment:**
 - Linux Host running Virtual Machine Manager
