@@ -76,8 +76,8 @@
  
 ## **Issues & Fixes:**
 - RDP from Linux to Win 11 VM's would not connect even though pings were successful. This implies it's not a networking issue, probably a setting issue on the Win 11 VM. After further troubleshooting, the root cause was the network. Switching from NAT to Bridged network adapters allowed for RDP to connect.
-        - FIX: Set up a bridged network adapter on Linux host and connected both VM's through the Bridged NIC.
-        - FIX: Troubleshooting RDP connectivity required switching the VMs from NAT to bridged networking and changing the Windows 11 NIC to e1000 due to missing virtio drivers.
+    - FIX: Set up a bridged network adapter on Linux host and connected both VM's through the Bridged NIC.
+    - FIX: Troubleshooting RDP connectivity required switching the VMs from NAT to bridged networking and changing the Windows 11 NIC to e1000 due to missing virtio drivers.
 
 ## **Outcome:**
 - Successfully verified user identity and obtained consent for remote support.
