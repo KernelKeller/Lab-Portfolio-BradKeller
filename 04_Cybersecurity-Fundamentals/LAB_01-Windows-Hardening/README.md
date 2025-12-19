@@ -122,7 +122,7 @@
     - Configure the following:
         - Network access: Sharing and security model for local accounts: Classic - local users authenticate as themselves
 17. Enable SMB client signing to protect network communications from tampering and man-in-the-middle attacks
-    - Configure the following:  
+    - Configure the following:
         - Microsoft network client: Digitally sign communications (always): Enabled
         - Microsoft network client: Digitally sign communications (if server agrees): Enabled
 18. Enforce SMB server signing to ensure integrity of file-sharing communications
