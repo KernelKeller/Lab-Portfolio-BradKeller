@@ -37,8 +37,6 @@
     - Hardening scripts (review only, not running)
 
 ## **Steps:**
-
-**Phase 1: Baseline & Initial Exposure Reduction**
 1. Take a pre-hardened snapshot of the Win 11 VM before beginning any hardening process. Provides a safe rollback point in case of issues.
 2. Verify Windows 11 Pro version and current OS build, as well as pending updates, to establish the system’s baseline prior to hardening.
     - Press Win + R -> type "winver" and hit enter.
@@ -74,8 +72,6 @@
     - Check the following under "Manage settings":
         - Cloud-delivered protection: Enabled
         - Automatic sample submission: Enabled
-
-**Phase 2: Authentication and UAC Hardening**
 8. Configure local password policy to enforce strong, rotating credentials and prevent password reuse. Weak or non expiring passwords risk brute force or credential reuse.
     - Win + R -> gpedit.msc
     - Navigate to Computer Configuration -> Windows Settings -> Security Settings -> Account Policies -> Password Policy
@@ -113,8 +109,6 @@
     - Secure desktop is used: Yes
     - Access is denied without elevation: Yes
     - Or a flat out denial of access.
-
-**Phase 3: Local Security Policy & Group Policy Hardening**
 15. Restrict LAN Manager authentication to NTLMv2 only to reduce exposure to credential relay and pass-the-hash attack.
     - Navigate to Computer Configuration -> Windows Settings -> Security Settings -> Local Policies -> Security Options
         - Network security: LAN Manager authentication level: Send NTLMv2 response only. Refuse LM & NTLM.
@@ -138,8 +132,6 @@
 21. Apply and validate security policy changes using a forced Group Policy update
     - Apply policy to group: gpupdate /force
     - Validate: reg query HKLM\SYSTEM\CurrentControlSet\Control\Lsa
-
-**Phase 4: Firewall, Services & Attack Surface Reduction**
 22. Verify Windows Firewall was enabled across all network profiles with inbound connections blocked by default
     - Open Windows Defender Firewall with Advanced Security
     - Click Windows Defender Firewall Properties
@@ -165,8 +157,6 @@
         - No boot issues: Confirmed
         - Firewall still enabled: Confirmed
         - Disabled services remain stopped: Confirmed
-
-**Phase 5: Logging, Auditing & Validation**
 26. Enable advanced audit policies to ensure authentication, account activity, privilege use, and system integrity events are logged.
     - Win + R -> secpol.msc
     - Navigate to Advanced Audit Policy Configuration -> System Audit Policies - Local Group Policy Object
