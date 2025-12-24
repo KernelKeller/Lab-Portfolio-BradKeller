@@ -121,5 +121,5 @@
     - Fix: revert it back to port 22 for this lab, but note that switching ssh to a random port other than the expected port 22 will make it harder for a nefarious entity to gain entrance through ssh.
 
 ## **Outcome:**
--Successfully hardened a Linux Mint system using industry security best practices, reducing attack surface through account controls, SSH hardening, firewall enforcement, permission auditing, persistent logging, and automated intrusion prevention.
+- Successfully hardened a Linux Mint system using industry security best practices, reducing attack surface through account controls, SSH hardening, firewall enforcement, permission auditing, persistent logging, and automated intrusion prevention.
 - Demonstrated the ability to assess, implement, validate, and document Linux security controls in a repeatable manner suitable for real world system deployment.
