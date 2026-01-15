@@ -1,0 +1,59 @@
+# Mini SIEM Lab
+**Date Created:** January 14, 2026  
+**Last Updated:** January 14, 2026
+
+## **Skills Demonstrated:**
+- Log collection and centralization
+- Basic SIEM concepts and workflows
+- Correlating events across multiple systems
+- Identifying security-relevant log sources
+- Writing simple detection logic or filters
+- Threat detection and investigation fundamentals
+- Understanding signal vs noise in logs
+
+## **Objective:**
+- Simulate a basic SIEM environment using local and VM-based systems
+- Centralize logs from Windows and Linux systems
+- Identify and correlate security events across hosts
+- Practice investigating suspicious activity using aggregated logs
+- Demonstrate foundational SOC-level detection and analysis skills
+
+## **Tools & Environment:**
+- Linux Mint Host (log collector / analysis system)
+- Windows 11 Pro VM
+- Linux Mint VM
+
+Log Sources:
+- Windows Event Logs (Security, System, PowerShell)
+- Linux logs:
+    - /var/log/auth.log
+    - /var/log/syslog
+    - /var/log/kern.log
+
+Tools & Utilities (lightweight / lab-scale):
+- rsyslog (log forwarding)
+- journalctl
+- Event Viewer
+- PowerShell
+- Bash utilities:
+    - grep, awk, sed, cut
+- Optional visualization:
+    - CSV exports or simple dashboards (if implemented)
+
+Simulated Events (lab-only):
+- Failed login attempts
+- Successful authentication events
+- Suspicious command execution
+- Privilege escalation attempts
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]

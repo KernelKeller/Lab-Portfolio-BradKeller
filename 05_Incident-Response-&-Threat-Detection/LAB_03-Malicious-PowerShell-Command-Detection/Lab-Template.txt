@@ -1,0 +1,45 @@
+# Malicious PowerShell/Command Detection
+**Date Created:** January 13, 2026   
+**Last Updated:** January 13, 2026 
+
+## **Skills Demonstrated:**
+- Detecting suspicious PowerShell and command-line activity
+- Understanding common attacker PowerShell techniques
+- Analyzing Windows Event Logs for process execution
+- Identifying living-off-the-land (LOLBins) abuse
+- Correlating commands with potential attacker intent
+- Basic threat-hunting mindset
+
+## **Objective:**
+- Learn how attackers abuse PowerShell and built-in Windows commands
+- Identify indicators of malicious or suspicious command execution
+- Understand which Windows logs capture PowerShell and process activity
+- Practice distinguishing legitimate admin activity from attacker behavior
+
+## **Tools & Environment:**
+- Windows 11 Pro VM
+- Windows Event Viewer
+    - Security Log
+    - PowerShell Operational Log
+- PowerShell
+- Commands and tools:
+    - Get-WinEvent
+    - Get-EventLog
+    - powershell.exe
+    - cmd.exe
+- Example attacker techniques (lab-only):
+    - Encoded PowerShell commands
+    - Download cradle patterns (Invoke-WebRequest, IEX)
+    - Suspicious parent/child process relationships
+
+## **Steps:**
+1. [Clear, short bullet steps for repeatability]
+
+## **Notes:**
+- [Interesting results, findings, behaviors]
+ 
+## **Issues & Fixes:**
+- [Problems encountered and how I solved them]
+
+## **Outcome:**
+- [What I confirmed, discovered, or sucessfully completed]
