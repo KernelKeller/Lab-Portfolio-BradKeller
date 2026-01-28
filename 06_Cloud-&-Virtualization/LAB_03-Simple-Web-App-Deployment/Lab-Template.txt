@@ -1,15 +1,32 @@
-# TITLE
-**Date Created:** Month Date, Year  
-**Last Updated:** Month Date, Year
+# Simple Web App Deployment
+**Date Created:** January 31, 2026  
+**Last Updated:** January 31, 2026
 
 ## **Skills Demonstrated:**
-- [Skills Practiced in this lab]
+- Deploying a basic web application on a VM
+- Configuring web servers (Apache / Nginx / simple Python HTTP server)
+- Assigning network settings and ports for accessibility
+- Testing connectivity from host and VM-to-VM
+- Understanding virtual network isolation and routing
+- Basic troubleshooting for application access issues
 
 ## **Objective:**
-- [What I am trying to learn, test or prove]
+- Learn how to deploy and serve a simple web application on a VM
+- Ensure the application is accessible from other VMs and/or host
+- Practice configuration of network interfaces and firewall rules
+- Test basic functionality and connectivity of deployed services
 
 ## **Tools & Environment:**
-- [OS, VMs, commands, tools used like Kali Linux, Nmap, Wireshark, etc.]
+- Linux Mint Host
+- Linux Mint VM (web server)
+- Windows 11 Pro VM (client/test machine)
+- Virtual Machine Manager (KVM/QEMU)
+- Web server options:
+    - Apache, Nginx, or Python http.server module
+- Networking utilities:
+    - ping, curl, netstat, ss
+- Firewall configuration tools (if testing restrictions):
+    - ufw, Windows Firewall
 
 ## **Steps:**
 1. [Clear, short bullet steps for repeatability]

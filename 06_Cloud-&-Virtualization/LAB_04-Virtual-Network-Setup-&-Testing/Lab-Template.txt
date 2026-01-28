@@ -1,15 +1,32 @@
-# TITLE
-**Date Created:** Month Date, Year  
-**Last Updated:** Month Date, Year
+# Virtual Network Setup & Testing
+**Date Created:** February 1, 2026  
+**Last Updated:** February 1, 2026
 
 ## **Skills Demonstrated:**
-- [Skills Practiced in this lab]
+- Designing and configuring virtual networks within Virtual Machine Manager (KVM/QEMU)
+- Assigning IP addresses, subnets, and gateways to VMs
+- Testing connectivity between VMs and host
+- Configuring network isolation and routing rules
+- Using network troubleshooting tools to verify connectivity
+- Understanding virtual networking concepts (NAT, bridged, host-only)
 
 ## **Objective:**
-- [What I am trying to learn, test or prove]
+- Learn how to create and configure virtual networks for multiple VMs
+- Ensure VMs can communicate according to intended network topology
+- Test connectivity and validate routing/firewall configurations
+- Practice troubleshooting network issues in a virtualized environment
 
 ## **Tools & Environment:**
-- [OS, VMs, commands, tools used like Kali Linux, Nmap, Wireshark, etc.]
+- Linux Mint Host
+- Windows 11 Pro VM
+- Linux Mint VM
+- Virtual Machine Manager (KVM/QEMU)
+- Networking utilities:
+    - ping, traceroute, ip, ifconfig, netstat, ss
+    - Windows equivalents: ping, tracert, ipconfig, netstat
+- Optional network monitoring: tcpdump, Wireshark
+- Virtual network types:
+- NAT, bridged, host-only
 
 ## **Steps:**
 1. [Clear, short bullet steps for repeatability]
