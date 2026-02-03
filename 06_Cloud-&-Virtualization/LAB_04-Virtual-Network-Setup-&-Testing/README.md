@@ -44,12 +44,12 @@
         - 'ping 10.0.0.45'
 3. Verify connectivity between both virtual machines and the Linux host via the bridged gateway, confirming proper host to VM and VM to host routing.
     - Linux VM, in terminal, run:
-        - ping 10.0.0.239
+        - 'ping 10.0.0.239'
     - Win 11 VM, in PowerShell, run:
-        - ping 10.0.0.239
+        - 'ping 10.0.0.239'
     - From host, open a terminal and run:
-        - ping 10.0.0.21 (Win 11 VM)
-        - ping 10.0.0.45 (Linux VM)
+        - 'ping 10.0.0.21 (Win 11 VM)'
+        - 'ping 10.0.0.45 (Linux VM)'
 4. Create a host only virtual network in Virtual Machine Manager to simulate an isolated environment with no external or bridged based network access.
     - Go to Virtual Machine Manager and enter the Linux VM hardware options. 
     - Disable the bridged network adapter and enable an isolated network adapter. DHCP can remain enabled.
