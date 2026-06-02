@@ -40,6 +40,7 @@
 - Configuration backups are important for recovery scenarios
 - Multi-site management allows isolation between clients
 - Role-based access helps limit technician permissions
+- Understand client network topology prior to deployment to ensure correct placement of UniFi gateway and switches.
  
 ## **Common Issues:**
 - Device adoption failures can be network or connectivity related
